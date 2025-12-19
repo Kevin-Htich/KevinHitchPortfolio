@@ -19,14 +19,14 @@ const projects = [
     title: "SecureCodeCoPilot",
     status: "Live",
     description:
-      "A solo to develop a SaaS product that scans developers repos for security vulnerabilities and provides AI-powered remediation suggestions.",
-    impact: "Use of AI for cyber-security that finds vulnerabilities and runs AI improvments, all locally. Amazing for healthcare, government, etc.",
+      "A solo project to develop a SaaS product that scans developers repos for security vulnerabilities and provides AI-powered remediation suggestions.",
+    impact: "Use of AI, for cyber-security, that finds vulnerabilities and runs AI improvments. All locally, amazing for healthcare, government, etc.",
     links: [
       { label: "Live", href: "https://SecureCodeCoPilot.dev" },
     ],
     skills: ["Full stack", "SaaS", "Python", "Typescript", "SQLLite", "AI"],
     notes:
-      "Due to the nature of the project, I cannot share the repository. However, I can provide a demo if you are interested.",
+      "Due to the nature of the project, I cannot share the repository. However, I can provide a demo if you are interested. Aditionally, the landing page is in the links",
   },
   {
     title: "Septa+",
@@ -39,7 +39,7 @@ const projects = [
     ],
     skills: ["Svelte", "API", "OpenMap", "Agile", "Accessibility"],
     notes:
-      "This project is based off the old Septa app. It got officially reworked by Septa.",
+      "This project is based off the old Septa app. It got officially reworked by Septa 12/24.",
   },
   {
     title: "Event System",
@@ -51,7 +51,7 @@ const projects = [
     ],
     skills: ["Scripting", "Full Stack", "SQL", "Meta-data", "real-time"],
     notes:
-      "There are not any links for this project as is mandatory by and the company.",
+      "There are not any links for this project as is mandatory by and the company. If you are interested in learning more, I can provide a demo.",
   },
 ];
 

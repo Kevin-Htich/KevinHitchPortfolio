@@ -26,7 +26,7 @@ const projects = [
     ],
     skills: ["Full stack", "SaaS", "Python", "Typescript", "SQLLite", "AI"],
     notes:
-      "Due to the nature of the project, I cannot share the repository. However, I can provide a demo if you are interested. Aditionally, the landing page is in the links",
+      "Due to the nature of the project, I cannot share the repository. However, I can provide a demo if you are interested. Additionally, the landing page is in the links",
   },
   {
     title: "Septa+",

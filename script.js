@@ -51,7 +51,7 @@ const projects = [
     ],
     skills: ["Scripting", "Full Stack", "SQL", "Meta-data", "real-time"],
     notes:
-      "There are not any links for this project as is mandatory by and the company. If you are interested in learning more, I can provide a demo.",
+      "There are not any links for this project as is mandatory by the company. If you are interested in learning more, I can provide a demo.",
   },
 ];
 

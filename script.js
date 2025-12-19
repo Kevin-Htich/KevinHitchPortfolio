@@ -4,7 +4,7 @@ const projects = [
     title: "AAC Highlighting",
     status: "Demo",
     description:
-      "Worked as SCRUM master for a team of 6 developers. Built a context aware AAC board which marks tiles using microphone input with AI generation.",
+      "Worked as SCRUM master for a team of 6 developers. Built a context aware AAC board which highlights words using microphone input with AI generation.",
     impact: "Currently bening used at Temple University Human-Computer Interaction Lab. Helping to improve the quality of life for people with disabilities.",
     links: [
       { label: "Live", href: "https://highlighting.vercel.app" },

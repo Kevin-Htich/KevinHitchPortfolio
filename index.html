@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site">
+      <nav class="topbar">
+        <div class="logo">
+          <span>Kevin Hitch</span>
+          <span class="logo-sub">Portfolio</span>
+        </div>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Focus</a>
+          <a href="#contact">Contact</a>
+          <a href="Hitch-resume.pdf" target="_blank" rel="noopener">Resume</a>
+        </div>
+      </nav>
+
+      <header class="hero reveal" id="top">
+        <div class="hero-main">
+          <h1>
+            Kevin Hitch
+            <span>Product-minded full-stack engineer</span>
+          </h1>
+          <p class="lead">
+            Fresh out of college, I'm ready to contribute to impactful projects. I have experience in both frontend and backend development, and I'm particularly passionate about creating seamless system experiences. <u> I'm open to any role that allows me to contribute to a team and grow as a developer.</u>
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">See projects</a>
+            <a class="button" href="mailto:kevinhitchwork@gmail.com">Email me</a>
+          </div>
+        </div>
+        <div class="hero-side">
+          <div class="stat-card">
+            <p class="stat-title">Quick scan</p>
+            <div class="stat-grid">
+              <div>
+                <p class="stat-label">Focus</p>
+                <p class="stat-value">Speed of loading this website</p>
+              </div>
+              <div>
+                <p class="stat-label">Speed</p>
+                <p class="stat-value">&lt; 1s TTI</p>
+              </div>
+              <div>
+                <p class="stat-label">Stack</p>
+                <p class="stat-value">JS / HTML / CSS</p>
+              </div>
+            </div>
+          </div>
+          <div class="callout">
+            <p>Recruiters: You can find my resume by clicking up-top.</p>
+          </div>
+        </div>
+      </header>
+
+      <section class="section reveal" id="projects">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects with real outcomes</h2>
+          </div>
+          <p class="section-note">
+            Each project includes scope and skills. Tap a card to expand
+            a short build note.
+          </p>
+        </div>
+        <div id="project-grid" class="project-grid"></div>
+      </section>
+
+      <section class="section split reveal" id="skills">
+        <div>
+          <p class="eyebrow">What I bring</p>
+          <p class="lead">
+            I aim for being the best I can be. I'm always learning and wanting to freshen up on skills. I've had a love technology since I was a kid, and I'm always looking for exciting new ways to apply it.
+          </p>
+        </div>
+        <div class="focus-grid">
+          <div class="focus-card">
+            <p class="focus-title">Strengths</p>
+            <ul>
+              <li>API design and implementation</li>
+              <li>Scrum Methodology</li>
+              <li>Meaningful databases that are easy to work with</li>
+              <li>Real-time data processing</li>
+            </ul>
+          </div>
+          <div class="focus-card">
+            <p class="focus-title">Tools</p>
+            <div class="skill-row">
+              <span class="pill">Python</span>
+              <span class="pill">TypeScript</span>
+              <span class="pill">SQL</span>
+              <span class="pill">Kubernetes</span>
+              <span class="pill">Networking</span>
+              <span class="pill">CI/CD</span>
+              <span class="pill">AI</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let us build something that lasts</h2>
+            <p class="lead">
+              Want a walk-through or more metrics? I respond fast
+              and can share full details.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button" href="mailto:kevinhitchwork@gmail.com">Email</a>
+            <a class="button ghost" href="https://www.linkedin.com/in/kevin-hitch-7aa26439a/"
+              >LinkedIn</a
+            >
+            <a class="button ghost" href="https://github.com/Kevin-Htich">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Kevin Hitch Portfolio</p>
+        <p class="mono">Updated <span id="year"></span></p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
